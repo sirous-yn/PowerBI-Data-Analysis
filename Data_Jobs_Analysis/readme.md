@@ -6,9 +6,26 @@
 
 ## Project Overview
 
-This Power BI project analyzes a large dataset of data-related job postings. The report focuses on job demand, salary levels, job titles, work arrangements, job requirements, and hiring platforms.
+This project explores the data jobs market using job posting data, with a focus on job demand, salary, job characteristics, work arrangements, and geographic distribution.
 
-The project demonstrates data analysis and visualization using Power BI, with interactive filters, dashboard navigation, and drill-through analysis.
+The report was developed in Power BI to turn job posting data into an interactive dashboard that allows users to explore overall market patterns and investigate individual job titles.
+
+## Questions This Analysis Explores
+
+This analysis explores the following questions about the data jobs market:
+
+- Which data-related job titles have the highest number of job postings?
+- How did data job posting volume change during 2024?
+- What are the typical yearly and hourly salaries for data-related jobs?
+- How do hourly and yearly salaries relate to each other?
+- How does salary vary across different job titles?
+- For a selected job title, how common are work-from-home opportunities?
+- How often do job postings mention degree requirements?
+- How often do job postings include health insurance?
+- Which job platforms have the most postings for a selected job title?
+- What types of work schedules are most common?
+- Where are job opportunities for a selected job title geographically distributed?
+- What does the overall job posting profile look like for a specific data-related job title?
 
 ## Dashboard Preview
 
@@ -16,7 +33,7 @@ The project demonstrates data analysis and visualization using Power BI, with in
 
 ![Data Jobs Overview](Data_Jobs_Overview.png)
 
-The main dashboard provides an overview of:
+The main dashboard provides an overview of the data jobs market, including:
 
 - Total number of job postings
 - Average job rating
@@ -49,11 +66,20 @@ This page provides a detailed analysis of a selected job title, including:
 
 The Home page provides navigation between the main sections of the report.
 
+## How to Use
+
+1. Open the [interactive Power BI report](https://app.powerbi.com/view?r=eyJrIjoiMmRjOGQ1ZmQtM2Y4ZS00NmZhLTk4Y2QtYWVlY2EyMDY0MmYxIiwidCI6IjMyMzNmZmExLWVhMDUtNDQ0NS04OTU4LTZiNjc0NDcyMzE0NyJ9).
+2. Start on the **Data Jobs Overview** page to explore overall job demand, salary, and posting trends.
+3. Use the **Job Title** slicer to filter the analysis to a specific job title.
+4. Open **Job Title Analysis** to explore the selected job title in more detail.
+5. Explore salary, work-from-home availability, degree requirements, health insurance, job platforms, schedule types, and geographic distribution.
+6. Use the drill-through option from the overview page to investigate a selected job title.
+
 ## Key Analysis Areas
 
 ### Job Demand
 
-The dashboard compares job posting volume across different data-related job titles and shows job posting trends over time.
+The dashboard compares job posting volume across different data-related job titles and shows how job posting volume changed during 2024.
 
 ### Salary Analysis
 
@@ -67,9 +93,15 @@ The analysis includes indicators for:
 - Health insurance
 - Work-from-home availability
 
+These variables provide additional context about job characteristics beyond salary.
+
 ### Job Platforms and Schedule Types
 
 The report shows where jobs are posted and how they are structured, including job platforms and schedule types.
+
+### Geographic Distribution
+
+The Job Title Analysis page includes a map to explore the geographic distribution of postings for the selected job title.
 
 ## Power BI Skills Demonstrated
 
@@ -117,6 +149,8 @@ Data-Jobs-PowerBI/
 - Data modeling
 - Data analysis
 
-## Purpose
+## Project Goal
 
-This project is part of my data analytics portfolio and demonstrates how I use Power BI to transform job market data into an interactive report that can be explored through filters, drill-through analysis, and visual dashboards.
+The goal of this project is to demonstrate how job market data can be transformed into an interactive Power BI report that supports exploration of job demand, salary, job characteristics, and geographic patterns.
+
+The report combines multiple visualizations and interactive features to allow users to move from an overall view of the data jobs market to a more detailed analysis of individual job titles.
